@@ -64,7 +64,7 @@ Install [GIT](https://git-scm.com/download/win) if not already installed on your
     cd docker  
     
     # Now Clone the repo locally  
-    git clone https://github.com/Azure-Samples/docker-django-webapp-linux.git  
+    git clone https://github.com/Azure-Samples/docker-django-webapp-linux.git --config core.autocrlf.input 
     cd docker-django-webapp-linux 
 
 ## Step 2: Locally build a Docker image  
