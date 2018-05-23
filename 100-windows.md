@@ -83,6 +83,12 @@ Install [GIT](https://git-scm.com/download/win) if not already installed on your
     REPOSITORY                                         TAG                 IMAGE ID                         CREATED             SIZE 
     starterapp                                         latest              <your_image_id>                  18 minutes ago      735MB? 
 
+    # Run docker run to verify your image works locally.
+    docker run --rm starterapp:latest
+    
+    # Sample output:
+    Starting SSH ...
+    Starting OpenBSD Secure Shell server: sshd.
 
 ## Exercise 3 : Create Azure Container registry (ACR) Server for your image
 
